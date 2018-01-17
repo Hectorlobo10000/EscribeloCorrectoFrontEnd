@@ -28,7 +28,7 @@
     <v-footer color="indigo" app>
       <span class="white--text">&copy; 2017</span>
     </v-footer>
-    
+
   </v-app>
 </template>
 
@@ -38,10 +38,10 @@
     data: () => ({
       drawer: false,
       items: [
-        {icon: 'home', text: 'Home', link: '/'},
-        {icon: 'class', text: 'Capítulos', link: '/chapters'},
-        {icon: 'contact_mail', text: 'Contactenos', link: '/'},
-        {icon: 'comment', text: 'Déjanos tu comentario', link: '/'}
+        { icon: 'home', text: 'Home', link: '/' },
+        { icon: 'class', text: 'Capítulos', link: '/chapters' },
+        { icon: 'contact_mail', text: 'Contactenos', link: '/' },
+        { icon: 'comment', text: 'Déjanos tu comentario', link: '/' }
       ]
     }),
     methods: {

@@ -6,9 +6,12 @@ import router from './router'
 
 import Vuetify from 'vuetify'
 import VueResource from 'vue-resource'
+import VueMarkdown from 'vue-markdown'
 
 Vue.use(Vuetify)
 Vue.use(VueResource)
+
+Vue.component('vue-markdown', VueMarkdown)
 
 Vue.config.productionTip = false
 
