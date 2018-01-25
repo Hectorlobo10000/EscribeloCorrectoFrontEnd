@@ -13,7 +13,7 @@
         </v-card-title>
         <v-card-actions>
           <v-btn flat color="orange">Compartir</v-btn>
-          <v-btn flat color="orange" @click.prevent="navigateTo(card.link)">Explorar</v-btn>
+          <v-btn flat color="orange" @click="navigateTo(card.link)">Explorar</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
