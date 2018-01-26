@@ -12,9 +12,8 @@
                   <v-icon>apps</v-icon>
                 </v-btn>
                 <v-list>
-                  <v-list-tile  v-for="item in body[0].content" :key="item.text" @click="">
-                    <!--v-list-tile-title href="#" v-scroll-to="item.link">{{ item.text }}</v-list-tile-title-->
-                    <v-list-tile-title><router-link to="/chapter/1#elabecedarioespanol">funnciono</router-link></v-list-tile-title>
+                  <v-list-tile  v-for="item in body[0].content" :key="item.text" @click="navigateTo(item.link)">
+                    <v-list-tile-title>{{ item.text }}</v-list-tile-title>
                     </v-list-tile>
                 </v-list>
               </v-menu>
