@@ -33,7 +33,6 @@ export default new Router({
   mode: 'history',
   scrollBehavior (to, from, savedPosition) {
     if (savedPosition) {
-      console.log(savedPosition)
       return savedPosition
     } else {
       if (to.hash) {

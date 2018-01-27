@@ -19,7 +19,6 @@
     "vue-axios": "^2.0.2",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1",
-    "vue-scrollto": "^2.8.0",
     "vue-social-sharing": "^2.3.3",
     "vuetify": "^0.17.6"
   },

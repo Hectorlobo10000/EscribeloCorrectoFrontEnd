@@ -75,6 +75,15 @@
       </v-list>
     </v-bottom-sheet>
   </div>
+  <div style="height: 700px;">
+    <p>funciono</p>
+  </div>
+  <p id="prueba">prueba</p>
+  <p id="prueba1">prueba1</p>
+  <p id="prueba2">prueba2</p>
+  <p id="prueba3">prueba3</p>
+  <p id="prueba4">prueba4</p>
+  <p id="prueba5">prueba5</p>
 </div>
 </template>
 

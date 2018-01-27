@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire">
 
-    <v-navigation-drawer fixed v-model="drawer" app>
+    <v-navigation-drawer fixed v-model="drawer" disable-route-watcher app>
       <v-list dense>
         <v-list-tile v-for="item in items" :key="item.text" @click="navigateTo(item.link)">
           <v-list-tile-action>
